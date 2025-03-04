@@ -45,3 +45,6 @@ examples/*
 !examples/*.h
 !examples/*.am
 
+target/
+.idea/
+.vscode/

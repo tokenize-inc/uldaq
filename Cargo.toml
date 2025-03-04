@@ -1,0 +1,13 @@
+[package]
+name = "uldaq"
+version = "0.1.1"
+edition = "2021"
+
+[lib]
+path = "src-rs/lib.rs"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.71.1"
+cc = { version = "1.2.14", features = ["parallel"] }
